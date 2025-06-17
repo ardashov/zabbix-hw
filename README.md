@@ -34,8 +34,7 @@ systemctl restart zabbix-server apache2
 systemctl enable zabbix-server apache2
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Авторизация](/img/Задание 1.png)`
+`![Авторизация](/img/Задание 1.png)`
 
 
 ---
