@@ -18,7 +18,7 @@
   1. Прикрепите в файл README.md скриншот авторизации в админке.
   2. Приложите в файл README.md текст использованных команд в GitHub. 
 
-![Авторизация](https://github.com/ardashov/zabbix-hw/blob/main/img/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%201.png)
+![](https://github.com/ardashov/zabbix-hw/blob/main/img/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%201.png)
 
 ```
 sudo -s 
@@ -61,6 +61,11 @@ systemctl enable zabbix-server apache2
 
 ![](https://github.com/ardashov/zabbix-hw/blob/main/img/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202_1.png)
 
+![](https://github.com/ardashov/zabbix-hw/blob/main/img/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202_2.png)
+
+![](https://github.com/ardashov/zabbix-hw/blob/main/img/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202_2_1.png)
+
+![](https://github.com/ardashov/zabbix-hw/blob/main/img/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202_3.png)
 ```
 sudo -s
 apt update
@@ -72,5 +77,3 @@ sed -i 's/Server=127.0.0.1/Server=192.168.56.104/g' /etc/zabbix/zabbix_agentd.co
 systemctl restart zabbix-agent.service
 systemctl enable zabbix-agent.service 
 ```
-
-`![Название скриншота 2](ссылка на скриншот 2)`
