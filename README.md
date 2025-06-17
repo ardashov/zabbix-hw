@@ -33,7 +33,7 @@ sed -i 's/# DBPassword=/DBPassword=123456789/g' /etc/zabbix/zabbix_server.conf
 systemctl restart zabbix-server apache2
 systemctl enable zabbix-server apache2
 ```
-
+img/Задание 1.png
 ![Авторизация](img/Задание 1.png)
 
 
