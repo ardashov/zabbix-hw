@@ -59,6 +59,8 @@ systemctl enable zabbix-server apache2
   3. Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
   4. Приложите в файл README.md текст использованных команд в GitHub 
 
+[](https://github.com/ardashov/zabbix-hw/blob/main/img/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%202_1.png)
+
 ```
 sudo -s
 apt update
@@ -71,5 +73,4 @@ systemctl restart zabbix-agent.service
 systemctl enable zabbix-agent.service 
 ```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+`![Название скриншота 2](ссылка на скриншот 2)`
